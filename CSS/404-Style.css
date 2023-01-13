@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#img-container {
+    margin: auto;
+    vertical-align: middle;
+    width: 70%;
+    text-align: center;
+    padding-top: 5%;
+}

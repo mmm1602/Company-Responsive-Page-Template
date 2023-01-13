@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background: white;
+}
+
+div.main {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+div.main > img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    filter: brightness(80%);
+    transition: all 2s;
+}
+
+div.main > h1 {
+    position: absolute;
+    float: left;
+    top: 250px;
+    left: 100px;
+    font-size: 50px;
+    color: white;
+    transition: all 0.5s;
+}
+div.main > h2 {
+    position: absolute;
+    float: left;
+    top: 310px;
+    left: 120px;
+    font-size: 30px;
+    color: #5ca8ff;
+    transition: all 0.5s;
+}
+
+div.Info {
+    height: 600px;
+    width: 100%;
+    background-color: #b8d9ff;
+    z-index: 96;
+}
+div.Info > div > h1 {
+    float: left;
+    width: 50%;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 10%;
+    transition: all 0.5s;
+    color: #5ca8ff;
+}
+
+.black {
+    position: absolute;
+    float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+    height: 480px;
+    width: 80%;
+    background-color: #404040;
+}
+
+div.Info > div > h2 {
+    float: left;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 12%;
+    width: 80%;
+    color: #d4edff;
+    transition: all 0.5s;
+}
+
+@media (max-width: 952px) {
+    div.main > h1 {
+        position: absolute;
+        float: left;
+        top: 250px;
+        left: 50px;
+        font-size: 40px;
+        color: white;
+        transition: all 0.5s;
+    }
+    div.main > h2 {
+        position: absolute;
+        float: left;
+        top: 300px;
+        left: 70px;
+        font-size: 20px;
+        color: #5ca8ff;
+    }
+
+    div.Info > div > h1 {
+        float: left;
+        width: 50%;
+        font-size: 40px;
+        margin-left: 10%;
+    }
+    div.Info > div > h2 {
+        float: left;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 12%;
+        width: 80%;
+    }
+}
+@media (max-width: 752px) {
+    div.main > h1 {
+        position: absolute;
+        float: left;
+        top: 250px;
+        left: 50px;
+        font-size: 25px;
+        color: white;
+    }
+    div.main > h2 {
+        position: absolute;
+        float: left;
+        top: 290px;
+        left: 70px;
+        font-size: 15px;
+        color: #5ca8ff;
+    }
+    div.Info > div > h1 {
+        float: left;
+        width: 50%;
+        font-size: 30px;
+        margin-left: 11%;
+    }
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: #202020;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer > h3 {
+    margin-top: 8px;
+    font-size: 15px;
+    vertical-align: bottom;
+    color: white;
+}
