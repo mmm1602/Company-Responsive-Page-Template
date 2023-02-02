@@ -16,12 +16,10 @@ div.main {
     background-color: black;
 }
 
-div.main > img {
+div.main > div {
     width:100%;
     height:100%;
-    object-fit:cover;
-    filter: brightness(80%);
-    transition: all 2s;
+    background-color: #b8d9ff;
 }
 
 div.main > h1 {
